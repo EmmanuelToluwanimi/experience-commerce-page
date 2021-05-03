@@ -67,3 +67,51 @@ body {
     height: 30px;
     border-radius: 50%;
 }
+
+.location_block{
+    display: flex;
+    gap: 20px;
+    /* justify-content: stretch; */
+}
+
+.locations{
+    flex: 25%;
+    height: 200px;
+    border-radius: 30px;
+    position: relative;
+}
+
+#l1{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("./assets/images/beach.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#l2{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("./assets/images/desert.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#l3{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("./assets/images/mountain.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#l4{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("./assets/images/lake.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.location_context{
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+}
+
+.hotel_img{
+    width: 70px;
+    height: 70px;
+}
