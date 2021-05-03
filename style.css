@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-    flex: 10%;
+    flex: 5%;
     background-color: var(--color-salmon);
     /* display: flex;
     flex-direction: column; */
@@ -33,10 +33,12 @@ body {
 .mid_section {
     flex: 70%;
     background-color: var(--color-light-salmon);
+    padding: 40px;
 }
 
 .sidebar {
     flex: 20%;
+    padding: 30px 20px 30px;
 }
 
 .logo{
@@ -52,10 +54,6 @@ body {
 /* .menu{
     
 } */
-
-.mid_section{
-    padding: 40px;
-}
 
 .fa-search{
     /* font-weight: 700; */
@@ -114,4 +112,14 @@ body {
 .hotel_img{
     width: 70px;
     height: 70px;
+}
+
+.hotel_order{
+    width: 50px;
+    height: 50px;
+}
+
+.book_btn{
+    background-color: var(--color-salmon);
+    color: white;
 }
