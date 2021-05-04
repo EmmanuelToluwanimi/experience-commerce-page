@@ -17,7 +17,7 @@
     <div class="main">
 
         <header class="header text-white h-screen p-5 flex flex-col justify-around">
-            <div class="logo self-center">
+            <div class="logo self-center hidden sm:block">
                 <img src="./assets/images/logo.svg" alt="logo">
             </div>
 
@@ -53,6 +53,19 @@
         </header>
 
         <main class="mid_section">
+            <div class="main_nav sm:hidden shadow-sm w-full">
+                <div class="bar_btn px-5">
+                    <!-- <i class="fas fa-bars"></i> -->
+                    <div class="bars bar1"></div>
+                    <div class="bars bar2"></div>
+                    <div class="bars bar3"></div>
+                </div>
+                <div>
+                    <img src="./assets/images/logo.svg" alt="logo" class="nav_img">
+                </div>
+                <div class="cart_btn px-5"><i class="fas fa-shopping-cart"></i></div>
+            </div>
+
             <div class="top_block flex justify-between">
                 <div class="searchbox border flex items-center bg-white rounded-lg">
                     <i class="fa fa-search text-2xl p-2"></i>
@@ -121,9 +134,9 @@
                         <b>Top</b> <span class="font-light">Hotels</span>
                     </div>
 
-                    <div class="hotels_block flex justify-between w-full gap-10 mt-5">
+                    <div class="hotels_block flex flex-wrap xl:flex-nowrap justify-between w-full gap-5 xl:gap-10 mt-5">
 
-                        <div class="hotels border flex bg-white w-2/6 shadow-md" id="h1">
+                        <div class="hotels border flex bg-white w-full sm:w-2/6 shadow-md" id="h1">
                             <div class="hotel_img">
                                 <img src="./assets/images/hotel-1.png" alt="hotel" width="100%" class="h-full">
                             </div>
@@ -134,7 +147,7 @@
                             </div>
                         </div>
 
-                        <div class="hotels border flex flex-nowrap bg-white shadow-md w-2/6" id="h1">
+                        <div class="hotels border flex flex-nowrap bg-white shadow-md w-full sm:w-2/6" id="h1">
                             <div class="hotel_img">
                                 <img src="./assets/images/hotel-1.png" alt="hotel" width="100%" class="h-full">
                             </div>
@@ -144,7 +157,7 @@
                             </div>
                         </div>
 
-                        <div class="hotels border flex bg-white shadow-md w-2/6" id="h1">
+                        <div class="hotels border flex bg-white shadow-md w-full sm:w-2/6" id="h1">
                             <div class="hotel_img">
                                 <img src="./assets/images/hotel-4.png" alt="hotel" width="100%" class="h-full">
                             </div>
